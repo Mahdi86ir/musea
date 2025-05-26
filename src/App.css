@@ -1,0 +1,71 @@
+@font-face {
+    font-family: regular;
+    src: url(/public/fonts/mainFont/EBGaramond-Regular.ttf) format(ttf),
+    url(/public/fonts/mainFont/EBGaramond-Regular.eot) format(eot),
+    url(/public/fonts/mainFont/EBGaramond-Regular.woff) format(woff),
+    url(/public/fonts/mainFont/EBGaramond-Regular.woff2) format(woff2),;
+}
+@font-face {
+    font-family: light;
+    src: url(/public/fonts/light/GaramondPremrPro-Disp.ttf) format(ttf),
+    url(/public/fonts/light/GaramondPremrPro-Disp.eot) format(eot),
+    url(/public/fonts/light/GaramondPremrPro-Disp.woff) format(woff),
+    url(/public/fonts/light/GaramondPremrPro-Disp.woff2) format(woff2),;
+}
+@font-face {
+    font-family: italic;
+    src: url(/public/fonts/italic/GaramondPremrPro-ItDisp.ttf) format(ttf),
+    url(/public/fonts/italic/GaramondPremrPro-ItDisp.eot) format(eot),
+    url(/public/fonts/italic/GaramondPremrPro-ItDisp.woff) format(woff),
+    url(/public/fonts/italic/GaramondPremrPro-ItDisp.woff2) format(woff2),;
+}
+@font-face {
+    font-family: normal;
+    src: url(/public/fonts/normal/AlegreyaSans-Light.ttf) format(ttf),
+    url(/public/fonts/normal/AlegreyaSans-Light.eot) format(eot),
+    url(/public/fonts/normal/AlegreyaSans-Light.woff) format(woff),
+    url(/public/fonts/normal/AlegreyaSans-Light.woff2) format(woff2),;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+*::selection{
+    background-color: #d5bf99;
+    color: #fff;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    /* gap: 50px; */
+}
+
+.btn{
+    width: 160px;
+    height: 50px;
+    border: 1px solid #d5bf99;
+    background: none;
+    color: #fff;
+    font-family: normal;
+    font-size: 16px;
+    font-weight: bold;
+}
+.btn2{
+    width: 160px;
+    height: 50px;
+    border: 1px solid #d5bf99;
+    background: none;
+    color: #000;
+    font-family: normal;
+    font-size: 16px;
+    font-weight: bold;
+}
+.iText{
+    font-size: 22px;
+    color: #d5bf99;
+    font-family: italic;
+}

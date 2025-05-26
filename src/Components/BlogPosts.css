@@ -1,0 +1,94 @@
+.blogPost-section{
+    width: 100%;
+    height: 150vh;
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.allPost-contianer{
+    max-width: 1300px;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+}
+.post-header{
+    width: 100%;
+    text-align: center;
+}
+.post-header p{
+    margin-top: 20px;
+}
+.post-header .tText{
+    font-size: 50px;
+}
+.post-container{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.post{
+    width: 400px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+.img-container{
+    width: 100%;
+    flex: 60%;
+    overflow: hidden; 
+    position: relative;
+}
+.img-container img{
+    width: 500px;
+    right: -15%;
+    transition: all .5s;
+    cursor: pointer;
+    position: absolute;
+}
+.img-container img:hover{
+    transform: scale(1.01) translateX(5px);
+}
+.post-content{
+    position: relative;
+    flex: 10%;
+}
+.post-title{
+    top: -70%;
+    position: absolute;
+    width: 350px;
+    height: 120px;
+    background-color: #f8f8f8;
+}
+.post-title p{
+    margin-top: 10px;
+}
+.post-title .tText{
+    font-size: 22px;
+    line-height: 30PX;
+}
+.post-title .iText{
+    font-size: 18px;
+}
+.moreBtn{
+    margin-top: 20px;
+    font-family: normal;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width:1400px) {
+    .post{
+        width: 350px;
+    }
+    .post-container{
+        justify-content: center;
+    }
+}

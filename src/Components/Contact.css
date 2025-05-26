@@ -1,0 +1,19 @@
+.contactUs-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/public/assets/h1bgimg3.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contactUs-section .form div{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+.contactUs-section textarea{
+    resize: none;
+    overflow-y: scroll;
+}

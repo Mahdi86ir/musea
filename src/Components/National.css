@@ -1,0 +1,135 @@
+.National-section{
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0px;
+    font-family: light;
+}
+.national-title{
+    text-align: center;
+}
+
+.national-title .tText{
+    font-size: 55px;
+    font-weight: 200;
+    letter-spacing: 5px;
+}
+.description-container{
+    display: flex;
+    max-width: 1300px;
+    gap: 70px;
+    height: 80%;
+}
+.description-container img{
+    width: 520px;
+    height: 600px;
+}
+.description2 , .description1{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 50px;
+    font-family: normal;
+    line-height: 30px;
+}
+.description1{
+    font-size: 19px;
+}
+.description2{
+    font-size: 16px;
+}
+
+.des-image{
+    /* height: 100%; */
+    width: fit-content;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+@media only screen and (max-width:1340px) {
+    .description-container{
+        max-width: 1100px;
+        gap: 50px;
+    }
+    .description1{
+        font-size: 16px;
+        gap: 20px;
+    }
+    .description2{
+        font-size: 14px;
+        gap: 10px;
+    }
+    .description-container img{
+        width: 380px;
+        height: auto;
+    }
+}
+@media only screen and (max-width:1200px){
+    .description-container img{
+        width: 340px;
+    }
+    .description-container{
+        max-width: 1000px;
+    }
+    .description2{
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width:1100px){
+    .description-container{
+        max-width: 100%;
+        flex-direction: column;
+        height: fit-content;
+        align-items: center;
+    }
+    .National-section{
+        height: fit-content;
+    }
+    .description-container > div{
+        width: 768px;
+    }
+    .description1 , .description2{
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        white-space: normal;
+        max-width: 100%;
+    }
+    .description-container img{
+        width: 768px;
+    }
+    .national-title .tText{
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width:770px) {
+    .description-container > div{
+        width: 600px;
+    }
+    .description-container img{
+        width: 600px;
+    }
+}
+@media only screen and (max-width:680px) {
+    .description-container > div{
+        width: 420px;
+    }
+    .description-container img{
+        width: 420px;
+    }
+}
+@media only screen and (max-width:480px) {
+    .description-container > div{
+        width: 300px;
+    }
+    .description-container img{
+        width: 300px;
+    }
+}
