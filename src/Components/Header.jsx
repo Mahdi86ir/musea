@@ -158,56 +158,56 @@ import { Autoplay, EffectFade, Navigation, Pagination } from 'swiper/modules';
 export default function App() {
   return (
     <section className='main-slider'>
-      <Swiper
-        spaceBetween={30}
-        effect={'fade'}
-        speed={1500}
-        autoplay={{
-          delay: 5000,
-          disableOnInteraction: false,
-        }}
-        loop={true}
-        navigation={true}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[EffectFade, Navigation, Pagination, Autoplay]}
-        className="mySwiper"
-      >
-        <SwiperSlide>
-          <img className='move-anim' src="/assets/slide1.jpg" />
-          <div className='slider-content'>
-            <p className="iText">History of art department</p>
-            <h2>DISCOVER BEAUTY</h2>
-            <button type="button" className='btn'>view more</button>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <img className='move-anim' src="/assets/slide2.jpg" />
-          <div className='slider-content'>
-            <p className="iText">History of art department</p>
-            <h2>HORTENSE FIQUET</h2>
-            <button type="button" className='btn'>view more</button>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <img className='move-anim' src="/assets/slide3.jpg" />
-          <div className='slider-content'>
-            <p className="iText">History of art department</p>
-            <h2>NEW EXHIBITION</h2>
-            <button type="button" className='btn'>view more</button>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <img className='move-anim' src="/assets/slide4.jpg" />
-          <div className='slider-content'>
-            <p className="iText">History of art department</p>
-            <h2>MODERN CLASSICS</h2>
-            
-            <button type="button" className='btn'>view more</button>
-          </div>
-        </SwiperSlide>
-      </Swiper>
+<Swiper
+  spaceBetween={30}
+  effect={'fade'}
+  speed={1500}
+  autoplay={{
+    delay: 5000,
+    disableOnInteraction: false,
+  }}
+  loop={true}
+  navigation={true}
+  pagination={{
+    clickable: true,
+  }}
+  modules={[EffectFade, Navigation, Pagination, Autoplay]}
+  className="main-slider mySwiper"
+>
+  <SwiperSlide>
+    <div className="slide-bg" style={{ backgroundImage: `url(/assets/slide1.jpg)` }}></div>
+    <div className='slider-content'>
+      <p className="iText">History of art department</p>
+      <h2>DISCOVER BEAUTY</h2>
+      <button type="button" className='btn'>view more</button>
+    </div>
+  </SwiperSlide>
+  <SwiperSlide>
+    <div className="slide-bg" style={{ backgroundImage: `url(/assets/slide2.jpg)` }}></div>
+    <div className='slider-content'>
+      <p className="iText">History of art department</p>
+      <h2>HORTENSE FIQUET</h2>
+      <button type="button" className='btn'>view more</button>
+    </div>
+  </SwiperSlide>
+  <SwiperSlide>
+    <div className="slide-bg" style={{ backgroundImage: `url(/assets/slide3.jpg)` }}></div>
+    <div className='slider-content'>
+      <p className="iText">History of art department</p>
+      <h2>NEW EXHIBITION</h2>
+      <button type="button" className='btn'>view more</button>
+    </div>
+  </SwiperSlide>
+  <SwiperSlide>
+    <div className="slide-bg" style={{ backgroundImage: `url(/assets/slide4.jpg)` }}></div>
+    <div className='slider-content'>
+      <p className="iText">History of art department</p>
+      <h2>MODERN CLASSICS</h2>
+      <button type="button" className='btn'>view more</button>
+    </div>
+  </SwiperSlide>
+</Swiper>
+
     </section>
   );
 }

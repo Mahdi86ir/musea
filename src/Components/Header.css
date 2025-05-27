@@ -105,69 +105,119 @@
 .swiper-slide img {
   display: block;
   width: 100%;
-}  */
-.main-slider .swiper {
-  width: 100%;
-  height: 100%;
+}  */ 
+/* کل کانتینر اسلایدر */
+.main-slider {
+  height: 100vh;
+  position: relative;
 }
 
-.main-slider .swiper-button-prev,
-.main-slider .swiper-button-next{
+/* هر اسلاید */
+.swiper-slide {
+  position: relative;
+  overflow: hidden;
+}
+
+/* بک‌گراند اسلاید با استفاده از background-image */
+.slide-bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+/* محتوا روی اسلاید */
+.slider-content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 800px;
+  align-items: center;
+  text-align: center;
   color: #fff;
 }
 
-.main-slider .swiper-pagination-bullet{
+/* عنوان اصلی */
+.slider-content h2 {
+  font-size: 50px;
+  color: #fff;
+  font-family: regular;
+  font-weight: 300;
+  letter-spacing: 5px;
+}
+
+/* زیرنویس */
+.slider-content p {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-style: italic;
+}
+
+/* دکمه */
+.slider-content .btn {
+  margin-top: 60px;
+  padding: 12px 30px;
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.slider-content .btn:hover {
+  background: #fff;
+  color: #000;
+}
+
+/* ناوبری اسلایدر */
+.main-slider .swiper-button-prev,
+.main-slider .swiper-button-next {
+  color: #fff;
+}
+
+/* نقاط اسلایدر */
+.main-slider .swiper-pagination-bullet {
   background-color: #fff;
 }
 
-.main-slider .swiper-pagination{
+.main-slider .swiper-pagination {
   display: flex;
   justify-content: center;
   gap: 30px;
   margin-bottom: 50px;
 }
 
+/* نسخه موبایل */
+@media (max-width: 768px) {
+  .main-slider .swiper-button-prev,
+  .main-slider .swiper-button-next {
+    display: none;
+  }
 
-.main-slider{
-height: 100vh;
-}  
+  .slider-content {
+    width: 90%;
+  }
 
-.slider-content{
-position: absolute;
-display: flex;
-flex-direction: column;
-top: 50%;
-left: 50%;
-transform: translate(-50% , -50%);
-z-index: 1000;
-width: 800px;
-align-items: center;
-}
+  .slider-content h2 {
+    font-size: 36px;
+    letter-spacing: 2px;
+  }
 
-.slider-content h2{
-font-size: 70px;
-color: #fff;
-font-family: regular;
-font-weight: 300;
-letter-spacing: 5px;
-}
-.slider-content p{
-margin-bottom: 10px;
-}
-.slider-content button{
-margin-top: 60px;
-}
-.swiper {
-width: 100%;
-height: 100%;
-}
+  .slider-content p {
+    font-size: 14px;
+  }
 
-.swiper-slide {
-background-position: center;
-background-size: cover;
-overflow: hidden;
-position: relative;
-text-align: center;
+  .slider-content .btn {
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 14px;
+  }
 }
 
 
