@@ -21,8 +21,8 @@ export default function App() {
       <Subscribe/>
       <Curated/>
       <BlogPosts/>
-      {/* <Contact/>
-      <Footer/> */}
+      <Contact/>
+      <Footer/>
     </main>
   )
 }

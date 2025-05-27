@@ -80,7 +80,7 @@
     }
 }
 
-@media only screen and (max-width:750px){
+@media only screen and (max-width:850px){
     .form-contianer{
         width: 550px;
         padding: 30px 10px;
