@@ -18,7 +18,7 @@ export default function National() {
             </p>
         </div>
         <div className='des-image'>
-            <img src="/assets/h1-img-1.jpg" alt="" />
+            <img src="/assets/h1-img-1.png" alt="" />
         </div>
         <div className='description2'>
             <p>

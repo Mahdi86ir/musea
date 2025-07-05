@@ -175,35 +175,35 @@ export default function App() {
   className="main-slider mySwiper"
 >
   <SwiperSlide>
-    <div className="slide-bg" style={{ backgroundImage: `url(/assets/slide1.jpg)` }}></div>
+    <div className="slide-bg" style={{ backgroundImage: `url(/assets/slide1.png)` }}></div>
     <div className='slider-content'>
       <p className="iText">History of art department</p>
       <h2>DISCOVER BEAUTY</h2>
-      <button type="button" className='btn'>view more</button>
+      {/* <button type="button" className='btn'>view more</button> */}
     </div>
   </SwiperSlide>
   <SwiperSlide>
-    <div className="slide-bg" style={{ backgroundImage: `url(/assets/slide2.jpg)` }}></div>
+    <div className="slide-bg" style={{ backgroundImage: `url(/assets/slide2.png)` }}></div>
     <div className='slider-content'>
       <p className="iText">History of art department</p>
       <h2>HORTENSE FIQUET</h2>
-      <button type="button" className='btn'>view more</button>
+      {/* <button type="button" className='btn'>view more</button> */}
     </div>
   </SwiperSlide>
   <SwiperSlide>
-    <div className="slide-bg" style={{ backgroundImage: `url(/assets/slide3.jpg)` }}></div>
+    <div className="slide-bg" style={{ backgroundImage: `url(/assets/slide3.png)` }}></div>
     <div className='slider-content'>
       <p className="iText">History of art department</p>
       <h2>NEW EXHIBITION</h2>
-      <button type="button" className='btn'>view more</button>
+      {/* <button type="button" className='btn'>view more</button> */}
     </div>
   </SwiperSlide>
   <SwiperSlide>
-    <div className="slide-bg" style={{ backgroundImage: `url(/assets/slide4.jpg)` }}></div>
+    <div className="slide-bg" style={{ backgroundImage: `url(/assets/slide4.png)` }}></div>
     <div className='slider-content'>
       <p className="iText">History of art department</p>
       <h2>MODERN CLASSICS</h2>
-      <button type="button" className='btn'>view more</button>
+      {/* <button type="button" className='btn'>view more</button> */}
     </div>
   </SwiperSlide>
 </Swiper>

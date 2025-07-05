@@ -17,7 +17,7 @@ export default function Curated() {
             </div>
         </div>
         <div className='imgContainer'>
-            <img src="/assets/h1-img-3.jpg" alt="" />
+            <img src="/assets/h1-img-3.png" alt="" />
         </div>
       </div>
     </section>

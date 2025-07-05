@@ -32,7 +32,7 @@ export default function Shop() {
       >
         <SwiperSlide>
             <div className='shop-item'>
-                <img className='pr-img' src="/assets/shopimg1600x600.jpg" alt="" />
+                <img className='pr-img' src="/assets/shopimg1600x600.png" alt="" />
                 <p className='pr-title'>ART</p>
                 <div className='starts'></div>
                 <p className='pr-price'>1$</p>
@@ -40,7 +40,7 @@ export default function Shop() {
         </SwiperSlide>
         <SwiperSlide>
             <div className='shop-item'>
-                <img className='pr-img' src="/assets/shopimg1600x600.jpg" alt="" />
+                <img className='pr-img' src="/assets/shopimg1600x600.png" alt="" />
                 <p className='pr-title'>ART</p>
                 <div className='starts'></div>
                 <p className='pr-price'>1$</p>
@@ -48,7 +48,7 @@ export default function Shop() {
         </SwiperSlide>
         <SwiperSlide>
             <div className='shop-item'>
-                <img className='pr-img' src="/assets/shopimg1600x600.jpg" alt="" />
+                <img className='pr-img' src="/assets/shopimg1600x600.png" alt="" />
                 <p className='pr-title'>ART</p>
                 <div className='starts'></div>
                 <p className='pr-price'>1$</p>
@@ -56,7 +56,7 @@ export default function Shop() {
         </SwiperSlide>
         <SwiperSlide>
             <div className='shop-item'>
-                <img className='pr-img' src="/assets/shopimg1600x600.jpg" alt="" />
+                <img className='pr-img' src="/assets/shopimg1600x600.png" alt="" />
                 <p className='pr-title'>ART</p>
                 <div className='starts'></div>
                 <p className='pr-price'>1$</p>
@@ -64,7 +64,7 @@ export default function Shop() {
         </SwiperSlide>
         <SwiperSlide>
             <div className='shop-item'>
-                <img className='pr-img' src="/assets/shopimg1600x600.jpg" alt="" />
+                <img className='pr-img' src="/assets/shopimg1600x600.png" alt="" />
                 <p className='pr-title'>ART</p>
                 <div className='starts'></div>
                 <p className='pr-price'>1$</p>

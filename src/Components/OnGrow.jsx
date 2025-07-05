@@ -47,7 +47,7 @@ export default function OnGrow() {
                     </div>
                 </div>
                 <div className="child1">
-                    <img src="/assets/item2.jpg" alt="" />
+                    <img src="/assets/item2.png" alt="" />
                 </div>
             </div>
             <div className="container3">

@@ -11,7 +11,7 @@ export default function BlogPosts() {
         </div>
         <div className='post-container'>
             <div className='post'>
-                <div className='img-container' style={{backgroundImage:'url(/assets/item4.jpg)'}}>
+                <div className='img-container' style={{backgroundImage:'url(/assets/item4.png)'}}>
                 </div>
                 <div className='post-content'>
                     <div className='post-title'>
@@ -35,8 +35,8 @@ export default function BlogPosts() {
                 </div>
             </div>
             <div className='post'>
-                <div className='img-container' style={{backgroundImage:'url(/assets/item6.jpg)'}}>
-                    {/* <img src="/assets/item6.jpg" alt="" /> */}
+                <div className='img-container' style={{backgroundImage:'url(/assets/item6.png)'}}>
+                    {/* <img src="/assets/item6.png" alt="" /> */}
                 </div>
                 <div className='post-content'>
                     <div className='post-title'>
