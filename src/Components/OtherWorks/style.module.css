@@ -1,0 +1,41 @@
+.other_works{
+    width: 100%;
+    height: 40vh;
+    border: 1px solid #00000031;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content_container{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn{
+    width: 185px;
+    height: 55px;
+    border-radius: 32px;
+    border: 2px solid #2db24a;
+    transition: all .5s;
+    cursor: pointer;
+    font-size: 20px;
+    color: #2db24a;
+    background: none;
+}
+.btn:hover{
+    color: #fff;
+    background-color: #2db24a;
+}
+.content_container div h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:740px) {
+    .content_container{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+}

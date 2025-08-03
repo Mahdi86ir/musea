@@ -1,0 +1,42 @@
+.art_container{
+    width: 200px;
+    border-radius: 40px;
+    overflow: hidden;
+    height: 300px;
+}
+.art_container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width:1300px) {
+    .art_container{
+        width: 150px;
+        height: 250px;
+    }
+}
+@media screen and (max-width:980px) {
+    .art_container{
+        width: 230px;
+        height: 250px;
+    }
+}
+@media screen and (max-width:780px) {
+    .art_container{
+        width: 180px;
+        height: 250px;
+    }
+}
+@media screen and (max-width:620px) {
+    .art_container{
+        width: 200px;
+        height: 200px;
+    }
+}
+@media screen and (max-width:475px) {
+    .art_container{
+        width: 150px;
+        height: 180px;
+    }
+}

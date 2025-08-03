@@ -1,0 +1,34 @@
+.header_container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/public/assets/images/bg.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.header_content{
+    padding:  0px 15%;
+    color: #fff;
+    line-height: 30px;
+}
+.header_content h1{
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.header_content p{
+    padding-right: 25px;
+    font-size: 18px;
+}
+
+@media screen and (max-width:740px) {
+    .header_content{
+        padding: 0px 5%;
+    }
+}
+@media screen and (max-width:480px) {
+    .header_container{
+        height: 130vh;
+    }
+}
