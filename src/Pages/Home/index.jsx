@@ -9,32 +9,32 @@ import InstaPosts from '../../Components/InstaPosts'
 export default function Home() {
   const [imgsContainer , setImgsContainer] = useState({
     container1:[
-      "/assets/images/art1_c1.png",
-      "/assets/images/art1_c1.png",
-      "/assets/images/art1_c1.png",
-      "/assets/images/art1_c1.png",
-      "/assets/images/art1_c1.png",
-      "/assets/images/art1_c1.png",
-      "/assets/images/art1_c1.png",
-      "/assets/images/art1_c1.png",
-      "/assets/images/art1_c1.png",
-      "/assets/images/art1_c1.png",
-      "/assets/images/art1_c1.png",
-      "/assets/images/art1_c1.png",
+      "/assets/images/1f.png",
+      "/assets/images/2f.png",
+      "/assets/images/3f.png",
+      "/assets/images/4f.png",
+      "/assets/images/1.png",
+      "/assets/images/2.png",
+      "/assets/images/3.png",
+      "/assets/images/4.png",
+      "/assets/images/5.png",
+      "/assets/images/6.png",
+      "/assets/images/7.png",
+      "/assets/images/8.png",
     ],
     container2:[
-      "/assets/images/art1_c1.png",
-      "/assets/images/art1_c1.png",
-      "/assets/images/art1_c1.png",
-      "/assets/images/art1_c1.png",
-      "/assets/images/art1_c1.png",
-      "/assets/images/art1_c1.png",
-      "/assets/images/art1_c1.png",
-      "/assets/images/art1_c1.png",
-      "/assets/images/art1_c1.png",
-      "/assets/images/art1_c1.png",
-      "/assets/images/art1_c1.png",
-      "/assets/images/art1_c1.png",
+      "/assets/images/9.png",
+      "/assets/images/10.png",
+      "/assets/images/11.png",
+      "/assets/images/12.png",
+      "/assets/images/13.png",
+      "/assets/images/14.png",
+      "/assets/images/15.png",
+      "/assets/images/16.png",
+      "/assets/images/17.png",
+      "/assets/images/18.png",
+      "/assets/images/19.png",
+      "/assets/images/20.png",
     ],
     container3:[
       "/assets/images/art1_c1.png",
@@ -57,39 +57,49 @@ export default function Home() {
       <section className={style.header_container}>
       <div className={style.header_content}>
         <h1>
-          به وب سایت رسمی همایون توسلی زاده خوش آمدید.
+          به وب سایت رسمی همایون (رضا) توسلی زاده خوش آمدید.
         </h1>
         <p>
-            همایون توسلی زاده متولد 1383/5/1 از شهر مشهد، ساکن شیراز است.
-        </p>
+همایون (رضا)   توسلی زاده  متولد:۱۳۸۳/۵/۱
+از شهر مشهد،ساکن شیراز است.        </p>
         <p>
-            او هم اکنون دانشجوی هنر در رشته نقاشی می باشد.
-        </p>
+او هم اکنون دانشجوی هنر در رشته نقاشی شیراز می باشد.        </p>
         <p>
-            او شاگرد یکی از اساتید برجسته این حوزه بنام عباس دلاور بود.
-        </p>
+وی از هنرمندان جوان،مستعدوپرتلاش در عرصه مجسمه سازی است.        </p>
         <p>
-            حوزه فعالیت او در ساخت مجسمه های حیوانات، مفهومی و طراحی المان های هنری در ابعاد بزرگ در قالب متریال هایی همچون فایبر کلاس و فلز می باشد.
-        </p>
+اودر کنار تحصیل دانشگاهی، مسیر حرفه ای خود را در زمینه مجسمه سازی نزد استادعباس دلاور
+یکی از چهره های برجسته این حوزه،بصورت
+عملی به یادگیری تکنیک ها و فنون پیشرفته
+گذرانده است.        </p>
         <p>
-            وی تا کنون در پروژه های متعددی به صورت انفرادی و گروهی مشارکت داشته است.
-        </p>
+حوزه ی فعالیت او در ساخت مجسمه های حیوانات،مفهومی،طراحی و ساخت المان های
+هنری در ابعاد بزرگ
+در قالب متریال هایی همچون قایبرگلاس،
+فلز و آهن میباشد.        </p>
         <p>
-            از جمله همکاری با شهرداریها، ...... و نهاد های دولتی و خصوصی بری طراحی و ساخت آثار هنری در فضا های شهری و عمومی است.
-        </p>
+وی تاکنون در پروژه های متعددی بصورت
+انفرادی و گروهی مشارکت داشته است،
+از جمله همکاری با شهرداری ها،سازمان ها
+و نهادهای دولتی و خصوصی
+برای ساخت آثارهنری در فضاهای شهری
+و عمومی        </p>
         <p>
-            تخصص او در خلق مجسمه های جمعی و نماد های فرهنگی موجب شده تا آثارش مورد توجه طیف گسترده ای از مخاطبان و کارفرمایان قرار گیرد.
-        </p>
+تخصص همایون در خلق مجسمه های حجمی
+نمادهای فرهنگی و مفاهیم زیباشناختی
+موجب شده تا آثارش مورد توجه طیف
+گسترده ای از مخاطبان و کارفرمایان قرارگیرد.        </p>
         <p>
-            پذیرش و آموزش مجسمه سازی، قالب گیری سیلیکون و فایبر کلاس ، تولید و تکثیر فایبر کلاس
-        </p>
+همکاری و سفارش اثر
+پذیرش و آموزش ساخت مجسمه سازی
+قالب گیری سیلیکون و فایبرگلاس
+تولید و تکثیر فایبرگلاس        </p>
         </div>
       </section>
       <Honors/>
       <OtherWorks/>
       <Arts imgsContainer={imgsContainer.container1}/>
       <Arts imgsContainer={imgsContainer.container2}/>
-      <Arts imgsContainer={imgsContainer.container3}/>
+      {/* <Arts imgsContainer={imgsContainer.container3}/> */}
       <InstaPosts/>
     </>
   )

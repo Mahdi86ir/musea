@@ -21,9 +21,6 @@ export default function Footer() {
         </ul>
       </div>
       <div className={style.content_name}>
-        <div>
-            👋
-        </div>
         <p>
             همایون توسلی زاده
         </p>

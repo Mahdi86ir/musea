@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import style from './style.module.css'
+import { Link } from 'react-router'
 
 export default function Navbar() {
   const [isMenuOpen , setIsMenuOpen] = useState(false)
@@ -8,16 +9,14 @@ export default function Navbar() {
     <nav className={style.navbar}>
       <div className={style.content_container}>
         <div className={style.intro}>
-            <div>
-              👋
-            </div>
+
             سلام همایون توسلی زاده هستم
         </div>
         <ul className={style.nav_li}>
-            <li>صفحه اصلی</li>
-            <li>نمونه کارها</li>
-            <li>تماس با ما</li>
-            <li>درباره ما</li>
+            <Link to='/' style={{color:'#76818e'}}><li>صفحه اصلی</li></Link>
+            <Link to='/portfolio' style={{color:'#76818e'}}><li>نمونه کارها</li></Link>
+            <li style={{color:'#76818e'}}>تماس با ما</li>
+            <li style={{color:'#76818e'}}>درباره ما</li>
         </ul>
         <button type="button" className={style.btn}>
             شماره تماس 
@@ -30,8 +29,8 @@ export default function Navbar() {
                 <i className='bx bx-x' onClick={() => setIsMenuOpen(false)}></i>
               </div>
               <ul className={style.menu_li}>
-                <li>صفحه اصلی</li>
-                <li>نمونه کارها</li>
+            <Link to='/'><li>صفحه اصلی</li></Link>
+            <Link to='/portfolio'><li>نمونه کارها</li></Link>
                 <li>تماس با ما</li>
                 <li>درباره ما</li>
               </ul>
