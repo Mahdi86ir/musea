@@ -67,24 +67,33 @@ export default function Honors() {
         // pagination={{
         //   clickable: true,
         // }}
-        //         autoplay={{
-        //   delay: 2000,
-        //   disableOnInteraction: false,
-        // }}
-        modules={[EffectFade ,]}
+                autoplay={{
+          delay: 2000,
+          disableOnInteraction: false,
+        }}
+        modules={[EffectFade , Autoplay]}
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="/assets/images/9.png" />
+          <img src="/assets/images/21.png" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/assets/images/8.png" />
+          <img src="/assets/images/22.png" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/assets/images/7.png" />
+          <img src="/assets/images/23.png" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/assets/images/6.png" />
+          <img src="/assets/images/24.png" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="/assets/images/25.png" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="/assets/images/26.png"/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="/assets/images/27.png" />
         </SwiperSlide>
       </Swiper>
     </section>

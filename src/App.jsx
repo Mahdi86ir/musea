@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
 import { Route, Routes } from 'react-router'
 import ArtsWork from './Pages/ArtsWork'
+import Contact from './Pages/Contact'
 export default function App() {
   return (
     <>
@@ -16,6 +17,7 @@ export default function App() {
           </>
           } />
         <Route path='/portfolio' element={<ArtsWork/>}/>
+        <Route path='/contact' element={<Contact/>}/>
       </Routes>
       <Footer/>
     </>

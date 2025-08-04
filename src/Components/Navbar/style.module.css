@@ -19,7 +19,7 @@
 .intro{
     width: 400px;
     font-size: 25px;
-    color: #fff;
+    color: navy;
     font-weight: bold;
     display: flex;
     align-items: center;
@@ -53,6 +53,9 @@
     cursor: pointer;
     color: #fff;
     font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .btn:hover{
     background: none;
@@ -60,7 +63,7 @@
 }
 .res_nav{
     font-size: 40px;
-    color: #fff;
+    color: navy;
     display: none;
     cursor: pointer;
 }
@@ -69,7 +72,7 @@
     background-color: #132238;
     top: 0;
     bottom: 0;
-    left:  -35%;
+    left: -35%;
     /* width: 0px; */
     overflow: hidden;
     width: 300px;
@@ -147,6 +150,9 @@
     cursor: pointer;
     color: #fff;
     font-size: 20px;
+        display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .btn2:hover{
     background: none;

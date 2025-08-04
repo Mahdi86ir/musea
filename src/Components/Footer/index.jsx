@@ -1,5 +1,6 @@
 import React from 'react'
 import style from './style.module.css'
+import { Link } from 'react-router'
 
 export default function Footer() {
   return (
@@ -7,17 +8,22 @@ export default function Footer() {
       <div className={style.content_socials}>
         <h3>شبکه های اجتماعی ما</h3>
         <div>
-            <i className='bx bxl-whatsapp'></i>
-            <i className='bx bxl-instagram'></i>
-            <i className='bx bxs-phone'></i>
+            <a href="https://www.whatsapp.com" target="_blank" rel="noopener noreferrer">
+                <i className='bx bxl-whatsapp'></i>
+            </a>
+            <a href="https://www.instagram.com/mojasame.saz.z?" target="_blank" rel="noopener noreferrer">
+                <i className='bx bxl-instagram'></i>
+            </a>
+            <a href="tel:+989058022738">
+                <i className='bx bxs-phone'></i>
+            </a>
         </div>
       </div>
       <div className={style.content_pages}>
         <ul>
-            <li>صفحه اصلی</li>
-            <li>درباره ما</li>
-            <li>نمونه کار</li>
-            <li>تماس با ما</li>
+            <Link to='/'><li>صفحه اصلی</li></Link>
+            <Link to='/portfolio'><li>نمونه کارها</li></Link>
+                   <Link to={'/contact'}><li>تماس با ما</li></Link>
         </ul>
       </div>
       <div className={style.content_name}>

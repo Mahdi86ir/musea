@@ -1,16 +1,18 @@
 @font-face {
-  font-family: iran_sans;
-  src: url('/public/Font/Iranian\ Sans.eot') format('eot'),
-       url('/public/Font/Iranian\ Sans.woff2') format('woff2'),
-       url('/public/Font/Iranian\ Sans.woff') format('woff'),
-       url('/public/Font/Iranian\ Sans.ttf') format('ttf'),;
+  font-family: negar;
+  src: url('/public/Font/Negaar\ Regular.eot') format('eot'),
+       url('/public/Font/Negaar\ Regular.woff2') format('woff2'),
+       url('/public/Font/Negaar\ Regular.woff') format('woff'),
+       url('/public/Font/Negaar\ Regular.ttf') format('ttf'),;
 }
+
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   direction: rtl;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: negar;
   list-style: none;
   text-decoration: none;
+  scroll-behavior: smooth;
 }

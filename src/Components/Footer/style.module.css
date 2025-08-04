@@ -15,15 +15,15 @@
     font-size: 30px;
 }
 
-.content_socials div i:first-child{
+.content_socials div a:first-child{
     color: #2db24a;
 }
 
-.content_socials div i:nth-child(2){
+.content_socials div a:nth-child(2){
     color: #dc3f7b;
 }
 
-.content_socials div i:nth-child(3){
+.content_socials div a:nth-child(3){
     color: #0dcaf0;
 }
 
